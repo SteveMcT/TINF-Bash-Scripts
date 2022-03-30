@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "onchange": "^7.1.0"
+  },
+  "name": "bash-scripts",
+  "version": "1.0.0",
+  "description": "Some bash Scripts for School (TINF)",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteveMcT/TINF-Bash-Scripts.git"
+  },
+  "author": "SteveMcT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteveMcT/TINF-Bash-Scripts/issues"
+  },
+  "homepage": "https://github.com/SteveMcT/TINF-Bash-Scripts#readme"
+}
