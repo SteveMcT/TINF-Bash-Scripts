@@ -6,7 +6,6 @@
   "version": "1.0.0",
   "description": "Some bash Scripts for School (TINF)",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "npm start"
   },

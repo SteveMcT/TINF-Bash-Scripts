@@ -1,10 +1,11 @@
-source ./colors.sh
+#!/bin/bash
 
-os=()
+# define empty array
+items=()
 
 function showCommands() {
-    echo "# 1: Add a new os to list"
-    echo "# 2: Print all entered os"
+    echo "# 1: Add a new item to list"
+    echo "# 2: Print all entered items"
     echo "# 3: Show all options"
     echo "# 4: Exit"
 }
@@ -16,11 +17,11 @@ do
 
     case $option in
         1)
-            read -p "# os name: " add
-            os+=("$add")
+            read -p "# item name: " add
+            items+=("$add")
             ;;
         2)
-            for i in "${os[@]}"; do
+            for i in "${items[@]}"; do
                 echo -e "#${CYAN} $i"
             done
             ;;

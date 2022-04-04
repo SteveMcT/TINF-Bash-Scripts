@@ -3,7 +3,7 @@ output=""
 
 tput setaf 4
 for bashFile in `ls`/*.sh ; do 
-    $output=$(( bashFile ))
+    $output=${#bashFile}
     (( counter++ ))
 
     if [ $(( $counter % 3 )) -eq 0 ]; then
